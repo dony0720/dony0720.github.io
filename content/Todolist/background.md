@@ -1,6 +1,6 @@
 ---
 emoji: 🧢
-title: To Do List (4) - 배경화면 바꾸기 기능 구현
+title: TodoList (4)  - 배경화면 바꾸기 기능 구현
 date: '2023-03-28 16:00:00'
 author: Js 
 tags: TodoList 작성 
@@ -36,6 +36,8 @@ function changeBackgroud() {
 <br>
 <br>
 
+# 배경이미지 랜덤 생성
+
 ```js
 const images = ["1.jpg", "2.jpg", "3.jpg","4.jpg","5.jpg"];
 const bgImage = document.createElement("img");
@@ -69,4 +71,4 @@ document.body.appendChild(bgImage);
 4. **document.body.appendChild(bgImage)**    
      
      + createElement("img")와 bgImage.src = **img/${chosenImage}** 를 사용해 생성된      
-     **<img src = "chosenImage">** 가  body의 자식으로 들어간다 
+     `img src = "chosenImage` 가  body의 자식으로 들어간다 
