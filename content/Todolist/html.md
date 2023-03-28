@@ -216,15 +216,14 @@ main {
 }
 ```
 
-[box-sizing 에 대한 설명](https://www.codingfactory.net/10630)
 
-1. **box-sizing: border-box** 
+1. **box-sizing: border-box**  [box-sizing 에 대한 설명](https://www.codingfactory.net/10630)
 
 
 2. **`body`** 높이는 100vh를 너비는 100vw를 할당   
-    + **`100vh`** -  **`100vh`** 는 부모 태그와는 상관없이 보이는 Viewport Height의 100%를<br>
+    + **`100vh`** ->  **`100vh`** 는 부모 태그와는 상관없이 보이는 Viewport Height의 100%를   
           다 쓰겠다는 의미입니다.    
-    + **`100vvw`** - **`100vh`** 는 부모 태그와는 상관없이 보이는 Viewport width의 100%를<br>
+    + **`100vvw`** -> **`100vh`** 는 부모 태그와는 상관없이 보이는 Viewport width의 100%를   
           다 쓰겠다는 의미입니다. 
 
 
