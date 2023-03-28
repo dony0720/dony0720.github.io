@@ -330,7 +330,7 @@ main {
 ## clock.css 
 
 
-```js
+```css
 /* 시계 */
 .clock {
     width: 547px;
