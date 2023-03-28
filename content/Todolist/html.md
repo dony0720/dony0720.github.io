@@ -3,7 +3,7 @@ emoji: 🧢
 title: TodoList (1) - HTML 구조 및 스타일
 date: '2021-03-28 Pm 1:23:'
 author: Js 
-tags: tutorial
+tags: TodoList 작성 
 categories: TodoList Js 
 ---
 #  HTML구조 작성 
@@ -117,9 +117,8 @@ categories: TodoList Js
 </div>
 ```
 
-## login_form 
 
-**input의 유효성을 검사하기 위해서 form 태그를 사용**
++ login_form **input의 유효성을 검사하기 위해서 form 태그를 사용**
 
 ## clock 
 
@@ -160,9 +159,7 @@ categories: TodoList Js
 </div>
 ```
 
-## dates  
-
-**js로 날짜를 대입하기 위해서 만들어 둠**
+ + dates  **js로 날짜를 대입하기 위해서 만들어 둠**
 
 <br>
 <br>
@@ -259,7 +256,7 @@ main {
     border-radius: 10px;
     justify-content: center;
     align-items: center;
-
+}
 .hidden {
     display: none;
 }
@@ -436,7 +433,7 @@ main {
    -> 텍스트가 범위 밖으로 나갈때 자동으로 줄 바꿈 
 
 
-3. #todo-list li에서 **`display`** 를 이용한 것은 리스트의    
+3. `#todo-list li에서**` `display`** 를 이용한 것은 리스트의    
    내용과 delete 아이콘을 **`flex`** 하기 위함이다 
 
 ## quote.css 
