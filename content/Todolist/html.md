@@ -1,7 +1,7 @@
 ---
 emoji: 🧢
 title: TodoList (1) - HTML 구조 및 스타일
-date: '2021-03-28 Pm 1:23:'
+date: '2023-03-28 16:00:00'
 author: Js 
 tags: TodoList 작성 
 categories: TodoList Js 
