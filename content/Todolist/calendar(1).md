@@ -1,8 +1,16 @@
+---
+emoji: 🧢
+title: TodoList (6) - Calendar 기능 구현(1)
+date: '2023-03-28 16:00:00'
+author: Js 
+tags: TodoList 작성 
+categories: TodoList Js 
+---
 # Calendar 기능 구현(1)
 
 ## 소스 코드
 
-![사진](./[calendar style4.png])
+![calendar4.png](calendar4.png)
 
 위 사진은 바로 우리가 만들 달력의 결과물입니다.    
 위와 같은 달력을 만들기 위해서 처음부터 천천히 진행해 봅시다!!!
@@ -351,6 +359,6 @@ document.querySelector('.dates').innerHTML = dates.join('');**
 
 ### 날짜 출력   
 
-![사진](./[calendar style1.png])  
+![calendar1.png](calendar1.png)
    
 **뒤에 css를 통해서 보기 쉽게 정리를 해보는게 좋을거 같습니다** 
