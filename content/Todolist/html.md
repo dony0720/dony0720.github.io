@@ -74,12 +74,10 @@ categories: TodoList Js
                 </form>
                 <ul id="todo-list"></ul>
             </div>
-            <div class="qoute-box">
-                <div class="quote-box-box">
+            <div class="quote-box">
                     <div class="first">Today Qoute</div>
                     <div></div>
                     <div></div>
-                </div>
             </div>
         </div>
     </main>
@@ -220,22 +218,24 @@ main {
 1. **box-sizing: border-box**  [box-sizing 에 대한 설명](https://www.codingfactory.net/10630)
 
 
-2. **`body`** 높이는 100vh를 너비는 100vw를 할당   
-    + **`100vh`** ->  **`100vh`** 는 부모 태그와는 상관없이 보이는 Viewport Height의 100%를   
-          다 쓰겠다는 의미입니다.    
-    + **`100vvw`** -> **`100vh`** 는 부모 태그와는 상관없이 보이는 Viewport width의 100%를   
-          다 쓰겠다는 의미입니다. 
+2. `body` 높이는 100vh를 너비는 100vw를 할당   
+    
+    + `100vh`->  `100vh`는 부모 태그와는 상관없이 보이는 Viewport Height의 100%를   
+       다 쓰겠다는 의미입니다.    
+    
+    + `100vvw` -> `100vh` 는 부모 태그와는 상관없이 보이는 Viewport width의 100%를   
+       다 쓰겠다는 의미입니다. 
 
 
-3. 테두리된 영역을 좌우, 상하 가운데 정렬하기 위해 **`display`** 를 적용하고   
-   **`justify-content: center`** 와 **`align-items: center`** 사용
+3. 테두리된 영역을 좌우, 상하 가운데 정렬하기 위해 `display` 를 적용하고   
+   `justify-content: center` 와 `align-items: center` 사용
 
 
-4. main의 영역을 보면 **`main-left`** 와 **`main-right`** 두개의 역역을 나눠진다. 
+4. main의 영역을 보면 `main-left` 와 `main-right` 두개의 역역을 나눠진다. 
 
 
-5. **`main-left`** 와 **`main-right`** 영역을 보면 **`item`** 의 축이 column로 되어있다. 
-   **`display`**  를 적용하고 **`flex-direction: column`** 를 사용해 **`flex`** 축을 **`column`** 으로 설정 
+5. `main-left` 와 `main-right` 영역을 보면 `item` 의 축이 column로 되어있다. 
+   `display` 를 적용하고 `flex-direction: column` 를 사용해 `flex` 축을 `column` 으로 설정 
 
 6. body의 영역과 마찬가지로 **좌우,상하 가운데 정렬을** 해준다 
 
@@ -424,16 +424,16 @@ main {
 }
 ```
 
-1. **`overflow-x: none`** , **`overflow-y: scroll`**   
+1. `overflow-x: none` , `overflow-y: scroll`   
    -> 리스트 내용이 많을때 이용 y축 scroll만 존재   
 
 
-2. **`word-break: break-all`**    
+2. `word-break: break-all`   
    -> 텍스트가 범위 밖으로 나갈때 자동으로 줄 바꿈 
 
 
-3. `#todo-list li에서**` `display`** 를 이용한 것은 리스트의    
-   내용과 delete 아이콘을 **`flex`** 하기 위함이다 
+3. `#todo-list li에서**` `display`를 이용한 것은 리스트의    
+   내용과 delete 아이콘을 `flex` 하기 위함이다 
 
 ## quote.css 
 
