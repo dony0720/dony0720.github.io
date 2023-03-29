@@ -1,7 +1,7 @@
 ---
 emoji: 🧢
 title: TodoList (10) - Quote 자동 생성기
-date: '2023-03-28 16:00:00'
+date: '2023-03-29 16:30:00'
 author: Js 
 tags: TodoList 작성 
 categories: TodoList Js 

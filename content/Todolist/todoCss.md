@@ -1,7 +1,7 @@
 ---
 emoji: 🧢
 title: TodoList (11) - style.css 마무리 
-date: '2023-03-29 14:30:00'
+date: '2023-03-29 16:50:00'
 author: Js 
 tags: TodoList 작성 
 categories: TodoList CSS
