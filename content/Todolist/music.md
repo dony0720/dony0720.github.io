@@ -118,3 +118,8 @@ function play() {
 
     + audio를 다시 load함
       주로 audio의 src나 설정이 바뀌었을 경우에 사용
+
+
+```toc
+
+```

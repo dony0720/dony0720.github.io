@@ -242,3 +242,7 @@ if (savedToDos !== null) { //저장된 데이터가 있을경우에 실행
     + **각각의 item에 대해서 paintToDo를 실행시킨다**   
 
     + **parsedToDos가 4개의 인덱스를 가지고 있는 배열이라면 paindToDo를 각각의 인덱스에 대해서 총 4번 실행하게 된다.**  
+
+```toc
+
+```

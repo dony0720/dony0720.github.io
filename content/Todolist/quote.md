@@ -95,3 +95,8 @@ author.innerText = `-${todaysQuote.author}-`;
     + 발생한 난수를 quotes 배열의 길이 만큼 곱해 **0 ~ quotes.length** 사이에 난수를 생성
     
     + Math.floor를 사용해 소수점 뒷자리를 반올림해 정수를 생성  
+
+
+```toc
+
+```
