@@ -47,3 +47,7 @@ JavaScript와 J스크립트는 엄연히 다른 언어이기 때문에 개발자
 
 그래서 웹 문서 영역을 제어할 수 있는 객체 = document 객체 (DOM tree 최상위 노드)   
 document 객체는 html 요소에 접근하기 위한 진입점이다. 
+
+```toc
+
+```
