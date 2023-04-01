@@ -1,10 +1,10 @@
 ---
-emoji: 🌳
-title: DOM에 관하여 
-date: '2023-03-31 15:40:00'
-author: Js 
-tags: DOM Js
-categories: DOM Js
+emoji: 🔮
+title: Gatsby 테마로 GitHub Blog 만들기
+date: '2021-07-06 00:00:00'
+author: 줌코딩
+tags: 블로그 github-pages gatsby
+categories: 블로그 featured
 ---
 
 # JS의 탄생 🍰
@@ -39,13 +39,13 @@ JavaScript와 J스크립트는 엄연히 다른 언어이기 때문에 개발자
 
 ![DomTree.png](DomTree.png)
 
-<br>
+<br/>
 
 `html` 안에는 `head`, `body`가 있다. head 안에는 `meta`,`title` 태그가 
 `body` 안에는 `h1`,`p`,`div` 태그가 올 수 있듯이 위 그림을 그려보면 tree 구조가 나타는걸 볼 수 있다. 
 각각의 요소를 `node`라고 한다. 그래서 DOM Tree는 node의 집합이라 말할 수 있다.
 
-그래서 웹 문서 영역을 제어할 수 있는 객체 = document 객체 (DOM tree 최상위 노드)   
+그래서 웹 문서 영역을 제어할 수 있는 객체 = document 객체 (=DOM tree 최상위 노드)   
 document 객체는 html 요소에 접근하기 위한 진입점이다. 
 
 ```toc
