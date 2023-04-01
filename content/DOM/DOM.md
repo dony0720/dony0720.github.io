@@ -1,13 +1,13 @@
 ---
-emoji: 🔮
-title: Gatsby 테마로 GitHub Blog 만들기
-date: '2021-07-06 00:00:00'
-author: 줌코딩
-tags: 블로그 github-pages gatsby
-categories: 블로그 featured
+emoji: 🌳
+title: DOM에 관하여 
+date: '2023-03-31 15:40:00'
+author: Js 
+tags: DOM Js
+categories: DOM Js
 ---
 
-# JS의 탄생 🍰
+## JS의 탄생 🍰
 
 초창기 웹은 **HTML,CSS만으로 이루어졌고** 앵커태그를 이용해 문서 이동만 가능한 웹 문서였다.    
 웹과 이용자가 서로 상호작용하기 위해 HTML 요소를 조작할 수 있는 언어가 필요했다.     
@@ -22,10 +22,10 @@ JavaScript와 J스크립트는 엄연히 다른 언어이기 때문에 개발자
 그리고 2008년 **강력한 JavaScript 엔진을 가진 Chrome이** 등장하게 되었고 이때부터 모든 브라우저들이 ECMAScript의 표준안에 따라가기 힘쓰게 되었다.  
 그렇게 오늘날의 JavaScript는 ECMAScript의 표준안을 따라가면서 발전하고 있다. 
 
-# DOM(Document object Model) 이란??  🙄
+## DOM(Document object Model) 이란??  🙄
 웹페이지에서 자바스크립트로 html 요소들을 제어하는데 사용되는 **문서 객체 모델**을 말한다.  
 
-# JavaScript의 html 제어 👨‍🔧
+## JavaScript의 html 제어 👨‍🔧
 
 브라우저 안에는 웹 문서를 해석할 수 있는 렌더링 엔진이 있다.
 렌더링 엔진은 **HTML, XML과 서식정보인 CSS, XML 등을 읽어들여 사람이 읽을 수 있는 문서로 표시하는, 웹 브라우저의 핵심기능을 담당하는 소프트웨어이다.**
@@ -35,7 +35,7 @@ JavaScript와 J스크립트는 엄연히 다른 언어이기 때문에 개발자
 
 그래서 문서 객체 모델이라 한다.
 
-# DOM Tree 🌳
+## DOM Tree 🌳
 
 ![DomTree.png](DomTree.png)
 
@@ -45,7 +45,7 @@ JavaScript와 J스크립트는 엄연히 다른 언어이기 때문에 개발자
 `body` 안에는 `h1`,`p`,`div` 태그가 올 수 있듯이 위 그림을 그려보면 tree 구조가 나타는걸 볼 수 있다. 
 각각의 요소를 `node`라고 한다. 그래서 DOM Tree는 node의 집합이라 말할 수 있다.
 
-그래서 웹 문서 영역을 제어할 수 있는 객체 = document 객체 (=DOM tree 최상위 노드)   
+그래서 웹 문서 영역을 제어할 수 있는 객체 = document 객체 (DOM tree 최상위 노드)   
 document 객체는 html 요소에 접근하기 위한 진입점이다. 
 
 ```toc
