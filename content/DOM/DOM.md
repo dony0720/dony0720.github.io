@@ -3,8 +3,8 @@ emoji: 🌳
 title: DOM에 관하여 
 date: '2023-03-31 15:40:00'
 author: Js 
-tags: Js
-categories: Js
+tags: DOM Js
+categories: DOM Js
 ---
 
 # JS의 탄생 🍰
