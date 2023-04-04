@@ -62,9 +62,15 @@ navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
 
 +  **.then((response) => response.json())**   
   
-    1. response의 json() 메서드를 호출한다.   
+    1. response의 json() 메서드를 호출해 JSON 데이터를 javascript 객체로 변환한다.   
   
-    2. 응답내용을 json으로 변환한 다음 then의 콜백인자로 넘겨준다.   
+    2. 변환된 객체는 다음 then의 콜백인자로 넘겨준다.   
+
++ JSON() 이란? 
+
+    1.  서버에서 클라이언트로 데이터를 보낼 때 사용하는 양식이다.
+    
+    2.  클라이언트가 사용하는 언어에 상관없이 통일된 데이터를 주고 받을 수 있도록 만들어진 텍스트 기반의 데이터 교환 표준이다.
 
 + **.then((data) =>**  -> 을 통해 넘겨받은 값을 통해 필요한 정보를 추출한다. 
 
