@@ -370,7 +370,7 @@ const condition = i >= firstDateIndex && i < lastDateIndex + 1
 <br>
 <br>
 
-### 날짜 출력   
+## 날짜 출력   
 
 ![calendar1.png](calendar1.png)
    
