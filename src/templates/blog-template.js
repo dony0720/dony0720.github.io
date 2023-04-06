@@ -6,7 +6,7 @@ import PostHeader from '../components/post-header';
 import PostNavigator from '../components/post-navigator';
 import Post from '../models/post';
 import PostContent from '../components/post-content';
-import Utterances from '../components/Utterances';
+import Utterances from '../components/utterances';
 
 function BlogTemplate({ data }) {
   const [viewCount, setViewCount] = useState(null);
