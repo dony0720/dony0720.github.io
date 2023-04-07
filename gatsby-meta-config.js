@@ -2,7 +2,7 @@ module.exports = {
   title: `Js 개발노트`,
   description: `JS 개발 성장 일지`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://www.zoomkoding.com`,
+  siteUrl: `https://github.com/dony0720`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
@@ -46,9 +46,9 @@ module.exports = {
         date: '2023.03. 28 ~',
         activity: '개인 블로그 개발 및 운영',
         links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
+          post: '',
+          github: 'https://github.com/dony0720/dony0720.github.io',
+          demo: 'https://github.com/dony0720',
         },
       },
     ],
