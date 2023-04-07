@@ -46,9 +46,9 @@ module.exports = {
         date: '2023.03. 28 ~',
         activity: '개인 블로그 개발 및 운영',
         links: {
-          post: '',
+          post: 'https://dony0720.github.io/',
           github: 'https://github.com/dony0720/dony0720.github.io',
-          demo: 'https://github.com/dony0720',
+          demo: 'https://dony0720.github.io/',
         },
       },
     ],
