@@ -77,6 +77,7 @@ const data = [
     + data 객체 각각의 요소를 매개변수로 받아 진행한다. 위 코드에서는 2개의 변수를 받고 반복문을 2번 진행한다.      
     + item 변수는 객체 각각의 요소를 받기위한 변수로 원하는대로 지정해줘도 좋지만 일반적으로 item이라는 변수를 사용한다.    
 <br>
+
 + document.querySelector를 통해 id 값이 todo-list인 html 요소에 접근할 수 있다. 
     + innerHTML을 사용해 id가 todo-list인 div 태그에 원하는 html 태그와 텍스트를 넣을 수 있다.    
 
