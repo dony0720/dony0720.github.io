@@ -38,10 +38,12 @@ const data = [
 
 ## 소스코드 
 
+### html
 ```html 
 <div id="todo-list"></div> 
 ``` 
 
+### js
 ```js 
     const data = [
         {
@@ -79,7 +81,10 @@ const data = [
 <br>
 
 + document.querySelector를 통해 id 값이 todo-list인 html 요소에 접근할 수 있다. 
-    + innerHTML을 사용해 id가 todo-list인 div 태그에 원하는 html 태그와 텍스트를 넣을 수 있다.    
+    + innerHTML을 사용해 id가 todo-list인 div 태그에 원하는 html 태그와 텍스트를 넣을 수 있다.   
+
+## 결과 
+![결과1](mission_result/결과1.png)
 
 ```toc
 ``` 

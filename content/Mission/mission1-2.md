@@ -17,10 +17,12 @@ categories: Mission
 
 ## 소스코드 
 
+### html 
 ```html 
 <div id="todo-list"></div> 
 ``` 
 
+### js
 ```js 
      /* 인스턴스 확인 */
             if (!new.target) {
@@ -69,6 +71,11 @@ categories: Mission
 + 위 세가지 if문을 봤을때 해당 조건문이 참일 경우에 throw new Error가 발생하고 함수를 중지시킨다. 
 + throw 혼자가 아니라 Error 객체를 같이 사용함으로써 해당 콜 스택 정보가 같이 출력되기 때문에    
   어디에서 에러가 발생했는지에 대한 정보를 얻을 수 있다. 
+
+## 결과 
+![결과2.1](mission_result/result_2.1.png)   
+![결과2.2](mission_result\result_2.2.png)   
+![결과2.3](mission_result\result_2.3.png)
 
 ```toc
 ``` 
