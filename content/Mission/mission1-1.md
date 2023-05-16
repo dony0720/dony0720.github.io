@@ -84,7 +84,7 @@ const data = [
     + innerHTML을 사용해 id가 todo-list인 div 태그에 원하는 html 태그와 텍스트를 넣을 수 있다.   
 
 ## 결과 
-![결과1](mission_result/결과1.png)
+![결과1](mission_result/result_1.png)
 
 ```toc
 ``` 
