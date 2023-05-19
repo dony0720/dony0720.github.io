@@ -55,8 +55,6 @@ categories: Mission
 + new 연산자와 함께 생성자 함수로서 호출되면 함수 내부의 new.target은 함수 자신을 가리킨다. 
 + new 연산자 없이 일반 함수로서 호출된 함수 내부의 new.target은 undefined다.
 
-<br>
-
 ## null or undefined 확인  
 + data가 null or undefined가 넘어오게 되면 false로 취급하기 때문에 Not 연산자와 만나 true가 되어 if문을 실행한다.      
 
