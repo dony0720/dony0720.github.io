@@ -1,10 +1,10 @@
 ---
 emoji: 📝
-title: Js_mission - 에러 체크 하기 
-date: '2023-05-15 16:00:00'
+title: Git Rebase에 대해서 
+date: '2023-05-19 16:00:00'
 author: Js 
-tags: Mission
-categories: Mission  
+tags: Git 
+categories: Git  
 ---
 
 # Git Rebase란? 
