@@ -3,8 +3,8 @@ emoji: 📝
 title: Git 커밋 메시지의 중요성
 date: '2023-06-09 15:30:00'
 author: Js 
-tags: JS 
-categories: Js  
+tags: Git 
+categories: Git
 ---
 
 # Git 커밋 메시지는 왜 중요할까
