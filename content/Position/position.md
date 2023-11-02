@@ -3,7 +3,7 @@ emoji: 😄
 title: CSS-Position
 date: '2023-03-29 13:30:00'
 author: Js 
-tags: CSS Box-model
+tags: CSS 
 categories: CSS 
 ---
 # position 속성  
