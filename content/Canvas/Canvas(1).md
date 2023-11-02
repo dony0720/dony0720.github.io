@@ -4,7 +4,7 @@ title: Canvas 1
 date: '2023-03-30 16:50:00'
 author: Js 
 tags: Canvas를 이용한 그림판
-categories: Canvas Js 
+categories: Js 
 ---
 # Canvas를 이용한 그림판 
 
