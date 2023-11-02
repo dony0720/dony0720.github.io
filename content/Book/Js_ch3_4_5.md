@@ -1,10 +1,10 @@
 ---
 emoji: 📚
-title: 자바스크립트는 왜 그 모양일까 Chapter(3) 큰 정수, (4) 큰 부동소수점, (5)    
+title: 자바스크립트는 왜 그 모양일까 3   
 date: '2023-06-05 16:40:00'
 author: Js 
-tags: Js Book 
-categories: Js Book  
+tags: Book 
+categories: Book  
 ---
 
 ## 큰 정수  

@@ -1,10 +1,10 @@
 ---
 emoji: 📚
-title: 자바스크립트는 왜 그 모양일까 Chapter(2) 숫자   
+title: 자바스크립트는 왜 그 모양일까 2 
 date: '2023-06-05 16:40:00'
 author: Js 
-tags: Js Book 
-categories: Js Book  
+tags: Book 
+categories: Book  
 ---
 
 # number 
