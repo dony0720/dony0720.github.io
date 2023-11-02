@@ -2,7 +2,7 @@
 emoji: 📝
 title: Js_mission - 다중 컴포넌트  
 date: '2023-05-16 09:30:00'
-author: Js 
+author: 중석 
 tags: Mission
 categories: Mission  
 ---

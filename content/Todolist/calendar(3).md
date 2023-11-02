@@ -2,9 +2,9 @@
 emoji: 🧢
 title: TodoList (8) - Calendar 기능 구현(2)
 date: '2023-03-28 16:20:00'
-author: Js 
+author: 중석 
 tags: TodoList 작성 
-categories: TodoList Js 
+categories: Js 
 ---
 # Calendar 버튼 기능 구현 
 

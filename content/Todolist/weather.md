@@ -2,9 +2,9 @@
 emoji: 🧢
 title: TodoList (5) -날씨 정보 가져오기
 date: '2023-03-28 16:00:00'
-author: Js 
+author: 중석 
 tags: TodoList 작성 
-categories: TodoList Js 
+categories: Js 
 ---
 # API를 이용해 날씨 정보 가져오기 
 

@@ -2,9 +2,9 @@
 emoji: 🧢
 title: TodoList (1) - HTML 구조 및 스타일
 date: '2023-03-28 15:00:00'
-author: Js 
+author: 중석 
 tags: TodoList 작성 
-categories: TodoList Js 
+categories: Js 
 ---
 
 아래에는 제가 보고 clone한 todolist 페이지 입니다!!

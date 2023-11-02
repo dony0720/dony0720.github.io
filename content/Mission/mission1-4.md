@@ -2,7 +2,7 @@
 emoji: 📝
 title: Js_mission - isCompleted 추가   
 date: '2023-05-16 09:30:00'
-author: Js 
+author: 중석 
 tags: Mission
 categories: Mission  
 ---

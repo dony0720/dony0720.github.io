@@ -2,9 +2,9 @@
 emoji: 🧢
 title: TodoList (9)  - List 작성
 date: '2023-03-28 16:30:00'
-author: Js 
+author: 중석 
 tags: TodoList 작성 
-categories: TodoList Js 
+categories: Js 
 ---
 # List 작성하기 구현 
 

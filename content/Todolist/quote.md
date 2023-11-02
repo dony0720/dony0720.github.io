@@ -2,9 +2,9 @@
 emoji: 🧢
 title: TodoList (10) - Quote 자동 생성기
 date: '2023-03-29 16:30:00'
-author: Js 
+author: 중석 
 tags: TodoList 작성 
-categories: TodoList Js 
+categories: Js 
 ---
 # Quote 생성
 

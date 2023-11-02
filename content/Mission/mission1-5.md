@@ -2,7 +2,7 @@
 emoji: 📝
 title: Js_mission - setState() 함수    
 date: '2023-05-22 17:15:00'
-author: Js 
+author: 중석 
 tags: Mission
 categories: Mission  
 ---

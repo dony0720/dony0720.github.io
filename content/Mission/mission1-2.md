@@ -2,7 +2,7 @@
 emoji: 📝
 title: Js_mission - 에러 체크 하기 
 date: '2023-05-15 16:00:00'
-author: Js 
+author: 중석 
 tags: Mission
 categories: Mission  
 ---

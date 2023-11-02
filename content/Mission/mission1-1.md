@@ -2,7 +2,7 @@
 emoji: 📝
 title: Js_mission 
 date: '2023-05-15 15:30:00'
-author: Js 
+author: 중석 
 tags: Mission 
 categories: Mission  
 ---
