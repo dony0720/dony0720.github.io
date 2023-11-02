@@ -3,8 +3,8 @@ emoji: 🧢
 title: Box model(2) - border
 date: '2023-03-28 16:00:00'
 author: Js 
-tags: CSS Box-model
-categories: CSS Box-model 
+tags: CSS 
+categories: CSS  
 ---
 
 # border 속성 
