@@ -2,7 +2,7 @@
 emoji: 📝
 title: React 
 date: '2023-11-02 15:30:00'
-author: Js 
+author: 중석 
 tags: React
 categories: React  
 ---

@@ -2,7 +2,7 @@
 emoji: 📝
 title: Nullish 병합 연산자 (??) 
 date: '2023-06-09 15:00:00'
-author: Js 
+author: 중석 
 tags: JS 
 categories: Js  
 ---

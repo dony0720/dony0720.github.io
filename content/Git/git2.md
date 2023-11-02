@@ -2,7 +2,7 @@
 emoji: 🧢
 title: Git에 대해서 (2) 
 date: '2023-03-30 15:30:00'
-author: Js 
+author: 중석 
 tags: Git
 categories: Git 
 ---

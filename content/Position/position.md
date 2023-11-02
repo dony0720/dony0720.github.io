@@ -2,7 +2,7 @@
 emoji: 😄
 title: CSS-Position
 date: '2023-03-29 13:30:00'
-author: Js 
+author: 중석 
 tags: CSS 
 categories: CSS 
 ---

@@ -2,7 +2,7 @@
 emoji: 🌳
 title: DOM에 관하여 
 date: '2023-03-31 15:40:00'
-author: Js 
+author: 중석 
 tags: Js
 categories: Js
 ---

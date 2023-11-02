@@ -2,7 +2,7 @@
 emoji: 📝
 title: Git Rebase에 대해서 
 date: '2023-05-19 16:00:00'
-author: Js 
+author: 중석 
 tags: Git 
 categories: Git  
 ---

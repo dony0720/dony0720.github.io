@@ -2,7 +2,7 @@
 emoji: 📚
 title: 자바스크립트는 왜 그 모양일까 2 
 date: '2023-06-05 16:40:00'
-author: Js 
+author: 중석 
 tags: Book 
 categories: Book  
 ---

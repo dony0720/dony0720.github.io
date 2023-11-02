@@ -2,7 +2,7 @@
 emoji: 🧢
 title: Box model(1) - content,padding
 date: '2023-03-28 16:00:00'
-author: Js 
+author: 중석 
 tags: CSS 
 categories: CSS  
 ---

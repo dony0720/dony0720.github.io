@@ -2,7 +2,7 @@
 emoji: 🖋
 title: Canvas (4) 
 date: '2023-03-30 16:50:00'
-author: Js 
+author: 중석 
 tags: Canvas를 이용한 그림판
 categories: Js 
 ---
