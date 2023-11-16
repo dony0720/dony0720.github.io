@@ -1,6 +1,6 @@
 ---
 emoji: 🖋
-title: Canvas 1 
+title: Canvas (1) 
 date: '2023-03-30 16:50:00'
 author: 중석 
 tags: Js
