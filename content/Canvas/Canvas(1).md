@@ -126,7 +126,7 @@ canvas.addEventListener("mouseleave",cancelPainting);
 ```
 
 오류를 해결하기위해 위의 코드를 추가해주자. 이제 마우스가 그림판 밖을 벗어날때도    
-**`cacelPainting`** 함수가 실행돼 오류가 해결되는걸 확인할 수 있을 것이다. 
+**`cancelPainting`** 함수가 실행돼 오류가 해결되는걸 확인할 수 있을 것이다. 
 
 ```toc
 
