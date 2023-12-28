@@ -47,13 +47,13 @@ npm start
 
 ## 프로젝트 진행
 
-프로젝트를 진행하기 전에 src폴더에는 App.js와 index.js를 제외한 나머지 파일들을 삭제하고 시작한다.  
+프로젝트를 진행하기 전에 src폴더에는 App.js와 index.js를 제외한 나머지 파일들을 삭제하고 시작한다.
 
 ## App.js
 
 ```js
 import { useEffect, useState } from 'react';
-import styles from "./Button.module.css"
+import styles from './Button.module.css';
 
 function App() {
   const [counter, setValue] = useState(0);
@@ -81,7 +81,9 @@ function App() {
     <div>
       <input value={keyword} onChange={onChange} placeholder="Search" />
       {/* <h1>{counter}</h1> */}
-      <button className={styles.btn} onClick={onCLick}>click</button>
+      <button className={styles.btn} onClick={onCLick}>
+        click
+      </button>
       {/* <Button text={"Continue"} /> */}
     </div>
   );
@@ -96,59 +98,65 @@ useEffect 함수는 리액트 컴포넌트 렌더링 될때마다 특정 작업�
 1. { }에는 동작하고자 하는 코드를 작성하면 된다.
 2. [ ]에는 검사하고자 하는 특정값 or 빈 배열
 
-   - 빈배열
+#### 빈배열
 
-   ```
-   useEffect(() => { console.log("call me once"); }, [])
-   ```
+```
+useEffect(() => { console.log("call me once"); }, [])
+```
 
-    처음 렌더링 될 때만 동작한다.    
+처음 렌더링 될 때만 동작한다.
+<br>
 
-        
-   - 배열 안에 state 값이 1개만 있을 경우
+#### case: 배열 안에 state 값이 1개만 있을 경우
 
-   ```
-   useEffect(() => { console.log('change', counter); }, [counter]);
-   ```
-    state 값이 (counter의 값) 변화할 때만 동작한다.
+```
+useEffect(() => { console.log('change', counter); }, [counter]);
+```
 
+state 값이 (counter의 값) 변화할 때만 동작한다.
+<br>
 
-   + 배열 안에 state 값이 2개 있을 경우 
+#### 배열 안에 state 값이 2개 있을 경우
+
     ```
     useEffect(() => { console.log('change', counter); }, [keyword,counter])
     ```
     둘 중 한개의 state 값만 변화하더라도 동작한다.
-### className 
+
+### className
+
 ```js
-<button className={styles.btn} onClick={onCLick}>click</button>
+<button className={styles.btn} onClick={onCLick}>
+  click
+</button>
 ```
 
-1. create-react-app은 무작위 랜덤 클래스를 생성한다.   
-CSS 클래스 이름이 다른 관계 없는 곳에서 사용한 CSS클래스 이름과 중복되는 일이 없게 하기 위함이다. 
+1. create-react-app은 무작위 랜덤 클래스를 생성한다.
+2. CSS 클래스 이름이 다른 관계 없는 곳에서 사용한 CSS클래스 이름과 중복되는 일이 없게 하기 위함이다.
+3. className을 설정할때는 styles.btn와 같이 import로 불러온 styles 객체 안에 값을 참조해야한다.
 
-2. className을 설정할때는 styles.btn와 같이 import로 불러온 styles 객체 안에 값을 참조해야한다. 
+## index.js
 
-
-## index.js 
 ```js
-import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./App";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
 ```
 
 ## Button.module.css
 
-src 폴더에 Button.module.css 파일을 만든다. 
+src 폴더에 Button.module.css 파일을 만든다.
 
 ```css
-.btn{
-    background-color: tomato;
-    color: white;
+.btn {
+  background-color: tomato;
+  color: white;
 }
 ```
+
 ```toc
 
 ```
