@@ -98,7 +98,7 @@ useEffect 함수는 리액트 컴포넌트 렌더링 될때마다 특정 작업�
 1. { }에는 동작하고자 하는 코드를 작성하면 된다.
 2. [ ]에는 검사하고자 하는 특정값 or 빈 배열
 
-#### 빈배열
+#### case 1 : 빈배열
 
 ```
 useEffect(() => { console.log("call me once"); }, [])
@@ -107,7 +107,7 @@ useEffect(() => { console.log("call me once"); }, [])
 처음 렌더링 될 때만 동작한다.
 <br>
 
-#### case: 배열 안에 state 값이 1개만 있을 경우
+#### case 2 : 배열 안에 state 값이 1개만 있을 경우
 
 ```
 useEffect(() => { console.log('change', counter); }, [counter]);
@@ -116,7 +116,7 @@ useEffect(() => { console.log('change', counter); }, [counter]);
 state 값이 (counter의 값) 변화할 때만 동작한다.
 <br>
 
-#### 배열 안에 state 값이 2개 있을 경우
+#### case 3 : 배열 안에 state 값이 2개 있을 경우
 
     ```
     useEffect(() => { console.log('change', counter); }, [keyword,counter])
