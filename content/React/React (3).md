@@ -75,3 +75,7 @@ ReactDOM.render(<App />, root);
 ## props와 stata의 차이점 
 1. props: 함수의 매개변수처럼 컴포넌트에 전달된다. 
 2. state: 함수 내에 선언된 변수처럼 컴포넌트 안에서 관리된다. 
+
+```toc
+
+```
