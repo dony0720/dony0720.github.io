@@ -3,8 +3,8 @@ emoji: 📝
 title: 프로그래머스 코테 연습문제 (1) 
 date: '2024-01-16 16:30:00'
 author: 중석 
-tags: algorithm
-categories: algorithm  
+tags: Algorithm
+categories: Algorithm  
 ---
 
 
