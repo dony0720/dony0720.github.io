@@ -72,3 +72,6 @@ console.log(str.join(''));
    + toLowerCase()를 사용해 해당 값이 소문자이면 toUpperCase()를 사용해 대문자로 변환한다. 
 3) 변환된 글자들은 str 배열에 저장되어 있고 str.join('')을 이용해    
    각 인덱스에 저장된 글자를 한번에 합쳐서 출력한다. 
+
+   ```toc
+   ```
