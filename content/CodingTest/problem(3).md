@@ -21,7 +21,7 @@ categories: Algorithm
 
 ## 입출력 예
 
-입력 #1
+입력 #1  
 
 ```
 string 5
