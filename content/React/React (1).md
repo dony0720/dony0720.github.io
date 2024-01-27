@@ -1,6 +1,6 @@
 ---
 emoji: 📝
-title: React 
+title: React (1)
 date: '2023-11-02 15:30:00'
 author: 중석 
 tags: React
