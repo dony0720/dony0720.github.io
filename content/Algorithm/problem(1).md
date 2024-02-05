@@ -1,5 +1,5 @@
 ---
-emoji: 📝
+emoji: 🔎
 title: 프로그래머스 문자열 출력하기 Js  
 date: '2024-01-16 16:30:00'
 author: 중석 
