@@ -1,7 +1,7 @@
 ---
 emoji: 📝
 title: 프로그래머스 덧셈식 출력하기 Js
-date: '2024-01-22 11:45:00'
+date: '2024-01-22 12:00:00'
 author: 중석
 tags: Algorithm
 categories: Algorithm
@@ -61,4 +61,5 @@ const a = input[0]
 const b = input[1]
 console.log(`${a} + ${b} = ${Number(a)+Number(b)}`);
 ```
-  
+```toc
+```
