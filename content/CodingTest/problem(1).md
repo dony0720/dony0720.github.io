@@ -1,14 +1,11 @@
 ---
 emoji: 📝
-title: 프로그래머스 코테 연습문제 (1) 
+title: 프로그래머스 문자열 출력하기 Js  
 date: '2024-01-16 16:30:00'
 author: 중석 
 tags: Algorithm
 categories: Algorithm  
 ---
-
-
-# 문자열 출력하기 
 
 ## 문제설명 
 문자열 `str`이 주어질 때, `str`을 출력하는 코드를 작성해 보세요.

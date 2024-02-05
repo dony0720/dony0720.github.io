@@ -1,13 +1,13 @@
 ---
 emoji: 📝
-title: 프로그래머스 코테 연습문제 (5)
+title: 프로그래머스 특수문자 출력하기 Js 
 date: '2024-01-22 11:45:00'
 author: 중석
 tags: Algorithm
 categories: Algorithm
 ---
 
-# 특수문자 출력하기
+
 
 ## 문제 설명
 

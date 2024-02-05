@@ -1,13 +1,13 @@
 ---
 emoji: 📝
-title: 프로그래머스 코테 연습문제 (3)
+title: 프로그래머스 문자열 반복해서 출력하기 Js
 date: '2024-01-17 11:20:00'
 author: 중석
 tags: Algorithm
 categories: Algorithm
 ---
 
-# 문자열 반복해서 출력하기
+
 
 ## 문제설명
 
