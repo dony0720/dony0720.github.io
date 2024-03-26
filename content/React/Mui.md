@@ -56,5 +56,8 @@ const Headertitle = styled(Stack)`
 외부 라이브러리는 선정할 떄 신중하게 해야하고, 해당 라이브러리 문서를 꼭 확인후에 해야한다.   
 보통은 커스터마이징이 가능한지, 가능하다면 어떻게 해야하는지도 나와있고, 그 의도에 맞게 사용해야한다.
 
+참고 링크    
+<https://velog.io/@diso592/UI-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-Material-UI-1.-%EA%B0%9C%EB%85%90>
+
 ```toc
 ``` 
