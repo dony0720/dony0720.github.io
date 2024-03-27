@@ -1,7 +1,7 @@
 ---
 emoji: 🔎
 title: 프로그래머스 주사위 게임2 Js
-date: '2024-03-027 17:00:00'
+date: '2024-03-27 17:00:00'
 author: 중석 
 tags: Algorithm
 categories: Algorithm  
