@@ -36,8 +36,8 @@ categories: Algorithm
 ## My solution.js
 ```js
 function solution(n, control) {
-  const controlAraay = [...control]
-  controlAraay.map((item)=>{
+  const controlArray = [...control]
+  controlArray.map((item)=>{
       if(item === "w"){
           n += 1
       }
@@ -71,3 +71,6 @@ function solution(n, control) {
 1) operations 객체: 이 객체는 각각의 제어 문자에 대한 동작을 정의한다. 예를 들어, 'w'라는 문자가 주어지면 값을 증가시키는 함수가 정의되어 있다.
 2) 처음 호출될 때는 초기값 n이 prev로 사용됩니다. 예를 들어, solution(0, 'wd')가 호출될 때, 초기값 0이 prev로 전달되고, 'w' 동작을 수행할 때는 prev가 0이 되고, 'd' 동작을 수행할 때는 이전 단계에서의 결과값이 1인 1이 prev로 전달 된다.
 3) operations [op] (prev) 부분은 operations 객체에서 현재 제어 문자 op에 해당하는 함수를 호출하고, 그 함수에 이전 단계에서의 결과값인 prev를 operation 객체에 전달하여 현재 단계에서의 결과를 계산하는 것입니다.
+
+```toc
+```
