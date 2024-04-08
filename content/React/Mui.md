@@ -30,16 +30,20 @@ mui는 잘 구성된 예제 문서와 ts, js 코드 또한 제공하기 때문�
 
 ## styled-component  
 ### 작성 방법 
+## 
 ```
+import Stack from '@mui/material/Stack';
+
 const Headertitle = styled(Stack)`
   text-align: center;
   color: toamto;
   width: 100%;
 `;
 ```
-1. 컴포넌트 변수명을 선언
-2. styled(스타일 하고 싶은 MUI 컴포넌트)  
-3. ``(벡틱)에 css 작성 
+1. 먼저 사용하고자 하는 MUI 컴포넌트를 imporot한다. 
+2. 컴포넌트 변수명을 선언
+3. styled(스타일 하고 싶은 MUI 컴포넌트)  
+4. ``(벡틱)에 css 작성 
 
 ### 적용 
 ```
