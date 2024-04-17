@@ -15,7 +15,7 @@ module.exports = {
     bio: {
       role: `개발자`,
       description: ['항상 노력하는', '새로운 것을 추구하는', '개발에 진심인'],
-      thumbnail: 'profile.png', // Path to the image in the 'asset' folder
+      thumbnail: 'profile2.png', // Path to the image in the 'asset' folder
     },
     social: {
       github: `https://github.com/dony0720`, // `https://github.com/zoomKoding`,
