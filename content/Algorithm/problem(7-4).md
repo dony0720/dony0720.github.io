@@ -1,7 +1,7 @@
 ---
 emoji: 🔎
 title: 프로그래머스 카운트 업 Js
-date: '2024-04-23 23:00:00'
+date: '2024-04-22 23:00:00'
 author: 중석
 tags: Algorithm
 categories: Algorithm
