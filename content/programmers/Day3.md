@@ -1,6 +1,6 @@
 ---
 emoji: 👨🏻‍💻
-title: Day 3 form 태그, button 태그
+title: Day 3 form 태그, button 태그, CSS 정의, 선택자, CSS 적용방법
 date: '2024-11-20 17:00:00'
 author: 중석
 tags: 프로그래머스
@@ -132,3 +132,134 @@ categories: 프로그래머스
 ### 결과
 
 ![select 동작 결과](Day3_image/Day3_select_result.png)
+
+# CSS
+
+- css: 웹 페이지에서 디자인을 담당하는 언어
+
+## 기본 문법
+
+```css
+div {
+  color: red;
+  background-color: blue;
+}
+```
+
+- 선택자: 스타일을 꾸밀 대상을 선택할 수 있는 문장 ( 예시에서는 div )
+- 속성: 선택된 요소를 어떤 부분을 스타일링 할지 결정 하는 부분 (위 예시에서는 color, background)
+- 속성값 : 정해진 속성에 특정 값을 넣어 디자인 요소를 넣는다 (예시에서는 color의 red, background의 blue)
+
+## 선택자 적용
+
+### 전체 => \*
+
+```css
+* {
+  color: red;
+  background-color: blue;
+}
+```
+
+### 특정태그 => div, span, h1 등등
+
+```css
+div {
+  color: red;
+}
+```
+
+### 아이디 => #아이디값
+
+```css
+#id1 {
+  color: red;
+}
+```
+
+### 클래스 => .클래스값
+
+```css
+.class1 {
+  color: red;
+}
+```
+
+### 자손 선택자: 선택자 선택자(div 아래 있는 모든 h1에 스타일을 적용한다고 가정)
+
+```html
+<div>
+  <h1>h1 태그 입니다 1</h1>
+  <h1>h1 태그 입니다 2</h1>
+  <h1>h1 태그 입니다 3</h1>
+  <h1>h1 태그 입니다 4</h1>
+  <h1>h1 태그 입니다 5</h1>
+</div>
+```
+
+```css
+div h1 {
+  color: red;
+}
+```
+
+### 자식 선택자: 선택자>선택자,부모-자식의 경우만 가능
+
+```html
+<div>
+  <h1>h1 태그 입니다</h1>
+  <span>span 태그입니다</span>
+</div>
+```
+
+```css
+div > span {
+  color: blue;
+}
+```
+
+- 위와 같이 div 태그 안에있는 span 태그에만 스타일리을 할때 사용된다
+
+### 다중으로 선택하는 경우
+
+#### 특정 태그
+
+```css
+div span h1 {
+  color: red;
+}
+```
+
+#### id
+
+```css
+#id1 #id2 {
+  color: red;
+}
+```
+
+#### class
+
+```css
+.class1 .class2 {
+  color: red;
+}
+```
+
+## CSS 적용 방법
+
+### 내부 스타일 시트
+
+- style 태그를 html 파일 내에서 head, body에 작성하는 방법
+
+### 외부 스타일 시트
+
+- link 태그를 이용하여 css파일을 읽어 와서 스타일 적용하는 방법 (가장 표준적으로 사용하는 방법)
+
+### 인라인 스타일 시트
+
+- 태그 내부에 스타일 정보를 작성하는 방법
+
+```html
+<div style="text-align: center;">인라인 스타일 시트</div>
+```
