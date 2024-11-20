@@ -25,7 +25,7 @@ categories: 프로그래머스
 
 ### 결과
 
-![ul Result](Day2_ul_result.png)
+![ul Result](Day2_image/Day2_ul_result.png)
 
 ## ol (ordered list)
 
@@ -46,7 +46,7 @@ categories: 프로그래머스
 
 ### 결과
 
-![ol Result](Day2_ol_result.png)
+![ol Result](Day2_image/Day2_ol_result.png)
 
 ## table
 
@@ -92,7 +92,7 @@ categories: 프로그래머스
 </table>
 ```
 
-![table Result](Day2_table_result.png)
+![table Result](Day2_image/Day2_table_result.png)
 
 ## div
 
@@ -115,7 +115,7 @@ categories: 프로그래머스
 
 ### 결과
 
-![div응용 Result](<Day2_div(2)_result.png>)
+![div응용 Result](<Day2_image/Day2_div(2)_result.png>)
 
 - 추가로 style에 background-color(배경색 지정), text-align(텍스트 정렬) 등의 속성등을 추가해 적용할 수 있다
 
@@ -131,7 +131,7 @@ categories: 프로그래머스
 
 ### 결과
 
-![span 응용 Result](Day2_span_result.png)
+![span 응용 Result](Day2_image/Day2_span_result.png)
 
 - 위와 같이 inline 요소는 높이,너비가 지정되지 않는다.
 - 단 style에 **display:inline-block**을 설정해주면 높이와 너비를 설정해 줄 수 있다.
@@ -151,7 +151,7 @@ categories: 프로그래머스
 
 ### 결과
 
-![a 응용 Result](<Day2_a(1)_result.png>)
+![a 응용 Result](<Day2_image/Day2_a(1)_result.png>)
 
 - 해당 텍스트를 클릭하게 되면 naver로 이동하게 된다
 - 주의사항: http,https를 반드시 붙여 사용해야한다. 그렇지 않으면 같은 도메인 안에서 이동이 되기 때문이다.
