@@ -115,9 +115,57 @@ categories: 프로그래머스
 - 부모 요소의 n번째 자식요소를 선택해 스타일 지정
 - 만약 홀수를 지정하고 싶으면 n에 odd를, 짝수를 지정하고 싶으면 even을 지정하면 된다
 
+```html
+<ul id="test1">
+  <li>테스트1</li>
+  <li>테스트2</li>
+  <li>테스트3</li>
+  <li>테스트4</li>
+  <li>테스트5</li>
+  <li>테스트6</li>
+</ul>
+```
+
+```css
+#test1 li:nth-child(odd) {
+  background-color: aqua;
+}
+```
+
+테스트1,3,5 문단만 스타일지정
+
 ### :nth-of-type(n)
 
 - 특정 태그 유형에서 n번째 요소를 선택한다. 단, 같은 부모 안에서 동일한 태그끼리만 세어 계산한다.
+
+```html
+<div id="test1">
+  <pre>테스트1</pre>
+  <div>테스트2</div>
+  <div>테스트3</div>
+  <div>테스트4</div>
+  <div>테스트5</div>
+  <pre>테스트6</pre>
+</div>
+<hr />
+<br />
+<div id="test2">
+  <pre>테스트1</pre>
+  <pre>테스트2</pre>
+  <div>테스트3</div>
+  <div>테스트4</div>
+  <div>테스트5</div>
+  <div>테스트6</div>
+</div>
+```
+
+```css
+div pre:nth-of-type(2) {
+  background-color: aqua;
+}
+```
+
+test1에서는 테스트6 문단이, test2에서는 테스트2 문단이 스타일 적용이 된다
 
 ### 특수 선택자 root
 
