@@ -245,6 +245,17 @@ item이 여러 줄이 되었을때 item들의 교차축 기준 정렬 방법을 
 
 ![](Day6_image/Day6_gridFuntion_result.png)
 
+## flex vs grid
+
+Q1. flex 보다 grid를 사용해서 쉽게 만들 수 있는 UI가 있는지
+
+- 복잡한 배열이 들어가 masonary 같은 것들을 구현할때는 grid 사용하는 것이 보다 효율적임
+- masonary 참고 링크 : https://wit.nts-corp.com/2022/10/26/6595
+
+Q2. 현업에서는 flex와 grid 중 무엇을 더 많이 사용하는지?
+
+- 가로, 세로 정도의 반응형만 필요하기 때문에 구현하기가 상대적으로 편한 flex를 일반적으로 사용하지만 둘 중 선호하는 방법으로 선택하면 된다고 한다.
+
 ```toc
 
 ```
