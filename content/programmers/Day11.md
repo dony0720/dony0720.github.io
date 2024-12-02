@@ -1,17 +1,36 @@
 ---
 emoji: 👨🏻‍💻
-title: Day 11 call by value & call by reference
+title: Day 11 함수 호이스팅, call by value & call by reference , 콜백함수
 date: '2024-12-02 16:00:00'
 author: 중석
 tags: 프로그래머스
 categories: 프로그래머스
 ---
 
-# call by value
+# 함수 호이스팅
 
-기본 자료형(Primitive Type, 원시 값)을 함수에 전달할 때, 값을 복사하여 전달
+함수 호이스팅이라 호출되는 시점에 함수의 선언이 없더라도 실행되는 메커니즘이다.
+호이스팅은 인터프리터에 의하여 호출 시점 보다 늦게 선언된 함수는 상위로 이동 시키는
+구문으로 일반 함수는 적용되지만 익명 함수는 호이스팅이 불가하다.
 
-## 메모리 영역
+```js
+/* 함수 선언 */
+foo(); // "bar",
+function foo() {
+  // 호이스팅 되는 함수
+  console.log('bar');
+}
+
+/* 함수 리터럴 표현식 */
+baz(); // TypeError: baz is not a function
+var baz = function () {
+  console.log('bar2');
+};
+```
+
+# Call by value
+
+기본 자료형(Primitive Type, 원시 값)을 함수에 전달할 때, 값을 복사하여 전달한다. 단 본래의 값에 영향을 주지는 않는다. Call by Sharing도 같은 매커니즘이다.
 
 ```js
 function func1(x) {
