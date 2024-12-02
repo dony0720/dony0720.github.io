@@ -1,7 +1,7 @@
 ---
 emoji: 👨🏻‍💻
-title: RBF 1회차 (개발자 도구, for문)- 1차 프로젝트 5팀
-date: '2024-11-22 22:30:00'
+title: RBF 2회차 (개발자 도구, for문)- 1차 프로젝트 5팀
+date: '2024-11-29 22:30:00'
 author: 중석
 tags: 프로그래머스
 categories: 프로그래머스
