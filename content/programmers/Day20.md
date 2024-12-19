@@ -1,6 +1,6 @@
 ---
 emoji: 👨🏻‍💻
-title: Day 19 fetch 함수
+title: Day 20 fetch 함수
 date: '2024-12-13 16:00:00'
 author: 중석
 tags: 프로그래머스
