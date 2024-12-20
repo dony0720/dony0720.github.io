@@ -14,7 +14,7 @@ module.exports = {
     name: `신중석`,
     bio: {
       role: `개발자`,
-      description: ['항상 노력하는', '새로운 것을 추구하는', '개발에 진심인'],
+      description: ['항상 노력하는', '기억보다 기록하는', '개발에 진심인'],
       thumbnail: 'profile2.png', // Path to the image in the 'asset' folder
     },
     social: {
