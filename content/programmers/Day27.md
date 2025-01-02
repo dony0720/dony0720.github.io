@@ -1,6 +1,6 @@
 ---
 emoji: 👨🏻‍💻
-title: Day 26 타입 단언, 타입 가드
+title: Day 27 타입 단언, 타입 가드
 date: '2025-01-02 22:00:00'
 author: 중석
 tags: 프로그래머스
