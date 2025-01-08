@@ -1,7 +1,7 @@
 ---
 emoji: 👨🏻‍💻
-title: Day 31 - Form
-date: '2025-01-06 22:00:00'
+title: Day 31 Form
+date: '2025-01-08 16:00:00'
 author: 중석
 tags: 프로그래머스
 categories: 프로그래머스
