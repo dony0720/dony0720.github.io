@@ -1,7 +1,7 @@
 ---
 emoji: 🔎
 title: 프로그래머스 같은 숫자는 싫어 Js
-date: '2024-02-06 17:00:00'
+date: '2025-01-15 23:00:00'
 author: 중석
 tags: Algorithm
 categories: Algorithm
